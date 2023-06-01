@@ -56,6 +56,7 @@ data.forEach((ele)=>{
     div.append(image,title,button1,button2);
     descriptions.style.textAlign = "justify"
     div.style.border= "2px solid black";
+    div.style.height = "fit-content";
     div.style.boxShadow = "2px 2px 10px black"
     button1.style.color="white";
     button1.style.backgroundColor = "Black";
