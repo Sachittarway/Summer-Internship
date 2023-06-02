@@ -1,0 +1,77 @@
+#food{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    text-align: center;
+    background-color: rgb(247, 245, 245);
+}
+#food img{
+    width:100%;
+    height: 300px;
+   
+}
+nav{
+    display: flex;
+    background-color:#c6e653;
+    
+}
+#navbar{
+    justify-content: flex-end;
+    margin-left: auto;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin-left: auto;
+}
+li{
+    text-decoration: none;   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+#content{
+    display: flex;
+    background-color:#c6e653;
+}
+#delicious_food{
+    font-size: 90px;
+    color: black
+}
+#first_child{
+    height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#second_child{
+    height: 500px;
+   position: relative;
+}
+#country{
+    font-size: 40px;
+}
+#imagess{
+    position: absolute;
+    left: 80px;
+    top: 30px;
+}
+#button{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#button:hover{
+    cursor: pointer;
+}
